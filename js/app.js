@@ -48,7 +48,11 @@ $(function () {
     new Service({ "title": "Web Development", "price": 250 }),
     new Service({ "title": "Web Design", "price": 250 }),
     new Service({ "title": "Photography", "price": 100 }),
-    new Service({ "title": "Consultation", "price": 150 })
+    new Service({ "title": "Consultation", "price": 150 }),
+    new Service({ "title": "Backend Development", "price": 400 }),
+    new Service({ "title": "Content Management", "price": 175 }),
+    new Service({ "title": "Web Server Administration", "price": 150 }),
+    new Service({ "title": "RESTful Service Creation", "price": 500 })
   ]);
 
   var APP = Backbone.View.extend({
